@@ -1,0 +1,23 @@
+{
+  "name": "webhook",
+  "version": "0.0.0",
+  "description": "webhook to update html content updated by developes for Website Frontend",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.zapbuild.com/project/reponame.git"
+  },
+  "author": "Sandeep Kaur",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "http": "0.0.0",
+    "gitlab-webhook-handler": "~1.0.1",
+    "child_process": "~1.0.2",
+    "nodemailer": "~4.3.1"
+  }
+}
+
+
